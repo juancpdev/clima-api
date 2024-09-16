@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { countries } from "../data/countries";
+import { countries } from "../../data/countries";
 import styles from './Form.module.css'
-import { SearchType } from "../types";
+import { SearchType } from "../../types";
 import Alert from "../alert/Alert";
 
 type FormProps = {
